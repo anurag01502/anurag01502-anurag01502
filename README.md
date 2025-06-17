@@ -15,7 +15,7 @@ A console-based quiz app with login, instructions, 46 questions, scorecard, and 
 <!-- You can add more projects below -->
 
 ## 📫 Contact
-- 📧 Email: your.email@example.com
+- 📧 Email: anuragkumar150202@gmail.com
 - 🔗 [LinkedIn]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/anurag-kumar-74a31518a/))
 - 🔗 [GitHub](https://github.com/anurag01502)
 
