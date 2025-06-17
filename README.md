@@ -16,7 +16,7 @@ A console-based quiz app with login, instructions, 46 questions, scorecard, and 
 
 ## 📫 Contact
 - 📧 Email: anuragkumar150202@gmail.com
-- 🔗 [LinkedIn](https://www.linkedin.com/in/anurag-kumar-74a31518a/)
-- 🔗 [GitHub](https://github.com/anurag01502)
+- 🔗 Linkedin : [LinkedIn](https://www.linkedin.com/in/anurag-kumar-74a31518a/)
+- 🔗 Github : [GitHub](https://github.com/anurag01502)
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
