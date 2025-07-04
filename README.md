@@ -2,10 +2,10 @@
 A passionate Java developer with experience in building real-world applications.
 
 ## 🚀 Skills
-- Core Java, JDBC, J2EE, Servlets, Spring Core
+- Core Java, JDBC, J2EE, Servlets, Spring Core, Java Persistant API's, Rest API'S  
 - MySQL, Git & GitHub
 - Spring Core (learning)
-- Tools: Eclipse, IntelliJ
+- Tools: Eclipse, IntelliJ, Postman
 
 ## 📂 Projects
 
@@ -18,6 +18,13 @@ The quiz contains 46 multiple-choice questions covering various topics. Upon com
 
 Additionally, the app features a leaderboard that displays the scores of other participants, allowing users to compare their performance with others who have scored higher or lower.
 
+### 🔹 [Employee_Task_Management_System](https://github.com/anurag01502/McqTestApplication)
+A Spring Boot REST API project demonstrating a one-to-many relationship between `Employee` and `Task` entities.
+
+- Built with Spring Boot, JPA, and MySQL.
+- Implements cascading and orphan removal.
+- Avoids infinite recursion using `@JsonManagedReference` and `@JsonBackReference`.
+- Endpoints to create, fetch, and delete employees and their tasks.
 <!-- You can add more projects below -->
 
 ## 📫 Contact
