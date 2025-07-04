@@ -18,7 +18,7 @@ The quiz contains 46 multiple-choice questions covering various topics. Upon com
 
 Additionally, the app features a leaderboard that displays the scores of other participants, allowing users to compare their performance with others who have scored higher or lower.
 
-### 🔹 [Employee_Task_Management_System](https://github.com/anurag01502/McqTestApplication)
+### 🔹 [Employee_Task_Management_System](https://github.com/anurag01502/employee-task-management-system)
 A Spring Boot REST API project demonstrating a one-to-many relationship between `Employee` and `Task` entities.
 
 - Built with Spring Boot, JPA, and MySQL.
