@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Anurag Kumar
-A passionate Java developer with experience in building real-world applications.
+A passionate backend developer with experience in building real-world applications.
 
 ## 🚀 Skills
 - Core Java, JDBC, J2EE, Servlets, Spring Core, Java Persistant API's, Rest API'S  
