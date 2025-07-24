@@ -6,7 +6,7 @@ A passionate backend developer with experience in building real-world applicatio
 
 ## 🚀 Skills
 
-- **Languages & Frameworks:** Core Java, JPA, REST APIs,Spring Core, JDBC, J2EE, Servlets,  
+- **Languages & Frameworks:** Core Java, JPA, REST APIs, Spring Boot, JDBC, J2EE, Servlets,  
 - **Database:** MySQL
 - **Front-End:** HTML, CSS and Javascript
 - **Version Control:** Git & GitHub  
