@@ -1,35 +1,80 @@
 # 👋 Hi, I'm Anurag Kumar
-A passionate backend developer with experience in building real-world applications.
+
+A passionate backend developer with experience in building real-world applications using Java and Spring Boot.
+
+---
 
 ## 🚀 Skills
-- Core Java, JDBC, J2EE, Servlets, Spring Core, Java Persistant API's, Rest API'S  
-- MySQL, Git & GitHub
-- Spring Core (learning)
-- Tools: Eclipse, IntelliJ, Postman
+
+- **Languages & Frameworks:** Core Java, JDBC, J2EE, Servlets, Spring Core, JPA, REST APIs  
+- **Database:** MySQL  
+- **Version Control:** Git & GitHub  
+- **Tools:** Eclipse, IntelliJ IDEA, Postman  
+- **Currently Learning:** Spring Core (Advanced Concepts)
+
+---
 
 ## 📂 Projects
 
 ### 🔹 [Java MCQ Test App](https://github.com/anurag01502/McqTestApplication)
-Java MCQ Test Application is a console-based quiz platform developed in Java.
+A console-based Java quiz platform where:
+- Users register and log in before attempting the quiz.
+- Quiz contains 46 MCQs from various topics.
+- After the test, users get a scorecard and can view a leaderboard.
+- Encourages performance comparison with other participants.
 
-Users are required to register and log in before taking the test. Once logged in, they are shown a set of instructions for attempting the exam. After reading the instructions, users must check the agreement box to proceed.
+---
 
-The quiz contains 46 multiple-choice questions covering various topics. Upon completion of the test, users can view their scorecard, which shows their total score and performance.
+### 🔹 [Employee Task Management System](https://github.com/anurag01502/employee-task-management-system)
+A Spring Boot REST API demonstrating a **one-to-many** relationship between `Employee` and `Task` entities.
 
-Additionally, the app features a leaderboard that displays the scores of other participants, allowing users to compare their performance with others who have scored higher or lower.
+✅ **Highlights:**
+- Built using Spring Boot, JPA, MySQL.
+- Implements **cascading** and **orphan removal**.
+- Avoids infinite recursion with `@JsonManagedReference` and `@JsonBackReference`.
+- APIs to create, fetch, and delete employees and their tasks.
 
-### 🔹 [Employee_Task_Management_System](https://github.com/anurag01502/employee-task-management-system)
-A Spring Boot REST API project demonstrating a one-to-many relationship between `Employee` and `Task` entities.
+---
 
-- Built with Spring Boot, JPA, and MySQL.
-- Implements cascading and orphan removal.
-- Avoids infinite recursion using `@JsonManagedReference` and `@JsonBackReference`.
-- Endpoints to create, fetch, and delete employees and their tasks.
-<!-- You can add more projects below -->
+### 🔹 [DeliveryApp-Restaurants Manager](https://github.com/anurag01502/Many-to-Many-Restaurants_DeliveryApp)
+A Spring Boot REST API demonstrating a **many-to-many** relationship between `Restaurant` and `DeliveryApp`.
+
+✅ **Key Features:**
+- Built with Spring Boot, Spring Data JPA, MySQL
+- Implements **DTO pattern** with **mapper classes**
+- Prevents infinite recursion via DTO strategy
+- Supports full (`PUT`) and partial (`PATCH`) updates
+
+📌 **Covered Concepts:**
+- JPA Many-to-Many relationships
+- RESTful API design
+- DTOs and Entity Mapping
+- Usage of `@GetMapping`, `@PostMapping`, `@PutMapping`, `@PatchMapping`, `@DeleteMapping`
+
+🔧 **API Endpoints Overview:**
+
+- **POST**: Add a new Delivery App with multiple associated Restaurants  
+- **GET**:
+  - Fetch all Restaurants with their Apps
+  - Fetch all Apps with their Restaurants
+  - Fetch by ID or name  
+- **DELETE**:
+  - Delete all Apps & Restaurants
+  - Delete App by ID (also deletes its associated Restaurants)  
+- **PATCH**: Partially update Restaurant or App  
+- **PUT**: Completely update Restaurant or App  
+
+---
 
 ## 📫 Contact
-- 📧 Email: anuragkumar150202@gmail.com
-- 🔗 Linkedin : [LinkedIn](https://www.linkedin.com/in/anurag-kumar-74a31518a/)
-- 🔗 Github : [GitHub](https://github.com/anurag01502)
+
+- 📧 Email: [anuragkumar150202@gmail.com](mailto:anuragkumar150202@gmail.com)
+- 🔗 LinkedIn: [linkedin.com/in/anurag-kumar-74a31518a](https://www.linkedin.com/in/anurag-kumar-74a31518a/)
+- 🔗 GitHub: [github.com/anurag01502](https://github.com/anurag01502)
+
+---
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=whit)
