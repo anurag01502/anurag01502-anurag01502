@@ -68,35 +68,6 @@ A Spring Boot REST API demonstrating a **one-to-many** relationship between `Emp
 - APIs to create, fetch, and delete employees and their tasks.
 
 ---
-
-### 🔹 [DeliveryApp-Restaurants Manager](https://github.com/anurag01502/Many-to-Many-Restaurants_DeliveryApp)  
-A Spring Boot REST API demonstrating a **many-to-many** relationship between `Restaurant` and `DeliveryApp`.
-
-✅ **Key Features:**  
-- Built with Spring Boot, Spring Data JPA, MySQL  
-- Implements **DTO pattern** with **mapper classes**  
-- Prevents infinite recursion via DTO strategy  
-- Supports full (`PUT`) and partial (`PATCH`) updates  
-
-📌 **Covered Concepts:**  
-- JPA Many-to-Many relationships  
-- RESTful API design  
-- DTOs and Entity Mapping  
-- Usage of `@GetMapping`, `@PostMapping`, `@PutMapping`, `@PatchMapping`, `@DeleteMapping`
-
-🔧 **API Endpoints Overview:**  
-- **POST:** Add a new Delivery App with multiple associated Restaurants  
-- **GET:** Fetch all Restaurants with their Apps, all Apps with their Restaurants, or fetch by ID or name  
-- **DELETE:** Delete all Apps & Restaurants, or delete App by ID (also deletes its associated Restaurants)  
-- **PATCH:** Partially update Restaurant or App  
-- **PUT:** Completely update Restaurant or App  
-
----
-
-
-
----
-
 ## 📫 Contact
 
 - 📧 Email: [anuragkumar150202@gmail.com](mailto:anuragkumar150202@gmail.com)  
