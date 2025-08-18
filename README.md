@@ -19,36 +19,42 @@ A passionate backend developer with experience in building real-world applicatio
 
 ## 📊[ Sales Analytics Dashboard](https://github.com/anurag01502/Sales-Analytics-Dashboard)
 
-A full-stack backend analytics system built with Spring Boot, Java, and MySQL to track and analyze the performance of sales employees based on their order history.
+A backend analytics system built with **Spring Boot**, **Java**, and **MySQL** to track and analyze sales performance based on order history.
 
-### 🔧 Tech Stack
+## 🔧 Tech Stack
+- Java, Spring Boot
+- MySQL
+- Postman
 
-- Backend: Java, Spring Boot  
-- Database: MySQL  
-- API Testing: Postman  
-- Build Tool: Maven  
+## 🧩 Entities & Relationships
+- **SalesEmployee** (1) ➝ (Many) **Orders**
+  - SalesEmployee: name, email, joined date, status, etc.
+  - Order: product name, amount, date, status, etc.
+  - Used DTOs to avoid infinite recursion
 
-### 🧩 Entities & Relationships
+## 📈 Features
+- Track orders by salesperson
+- Dashboard metrics:
+  - ✅ Total Sales → `/get-api/dashboard/total-revenue`
+  - 📉 Avg Sales per Rep → `/get-api/dashboard/average-sales-per-rep`
+  - 🏆 Best Salesperson → `/get-api/dashboard/best-sales-person`
+  - 📦 Most Sold Product → `/get-api/dashboard/most-sold-product`
 
-- **SalesEmployee**  
-  - Represents each salesperson.  
-  - Fields include name, email, etc.  
-  - Has a **One-to-Many** relationship with `Order`.  
+## 🔗 API Endpoints
 
-- **Order**  
-  - Contains details like product, amount, and date.  
-  - Each order is linked to one `SalesEmployee`.  
+### 🔹 SalesEmployee
+- `GET /get-api/sales-employees` – Get all
+- `GET /get-api/sales-employee/{id}` – Get by ID
+- `POST /post-api/sales-employee` – Add one
+- `PATCH /patch-api/sales-employee/{id}` – Partial update
+- `DELETE /delete-api/sales-employee/{id}` – Delete by ID
 
-### 📈 Key Features
-
-- 🔍 Track Individual Orders: Each order is associated with a salesperson.  
-- 📊 Dashboard Metrics (Home Page):  
-  - ✅ Total Sales  
-  - 📉 Average Sales per Salesperson  
-  - 🏆 Best Performing Salesperson  
-  - 📦 Most Sold Product  
-- 🔄 RESTful APIs for managing employees and orders  
-- 🧪 Tested via Postman  
+### 🔹 Orders
+- `GET /get-api/orders` – Get all
+- `GET /get-api/order/{id}` – Get by ID
+- `POST /post-api/order` – Add one
+- `PATCH /patch-api/order/{id}` – Partial update
+- `DELETE /delete-api/order/{id}` – Delete by ID 
 
 ---
 
