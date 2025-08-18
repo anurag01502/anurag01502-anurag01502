@@ -17,7 +17,7 @@ A passionate backend developer with experience in building real-world applicatio
 
 ## 📂 Projects
 
-## 📊 Sales Analytics Dashboard
+## 📊[ Sales Analytics Dashboard](https://github.com/anurag01502/Sales-Analytics-Dashboard)
 
 A full-stack backend analytics system built with Spring Boot, Java, and MySQL to track and analyze the performance of sales employees based on their order history.
 
