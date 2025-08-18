@@ -17,12 +17,38 @@ A passionate backend developer with experience in building real-world applicatio
 
 ## 📂 Projects
 
-### 🔹 [Java MCQ Test App](https://github.com/anurag01502/McqTestApplication)  
-A console-based Java quiz platform where:  
-- Users register and log in before attempting the quiz.  
-- Quiz contains 46 MCQs from various topics.  
-- After the test, users get a scorecard and can view a leaderboard.  
-- Encourages performance comparison with other participants.
+## 📊 Sales Analytics Dashboard
+
+A full-stack backend analytics system built with Spring Boot, Java, and MySQL to track and analyze the performance of sales employees based on their order history.
+
+### 🔧 Tech Stack
+
+- Backend: Java, Spring Boot  
+- Database: MySQL  
+- API Testing: Postman  
+- Build Tool: Maven  
+
+### 🧩 Entities & Relationships
+
+- **SalesEmployee**  
+  - Represents each salesperson.  
+  - Fields include name, email, etc.  
+  - Has a **One-to-Many** relationship with `Order`.  
+
+- **Order**  
+  - Contains details like product, amount, and date.  
+  - Each order is linked to one `SalesEmployee`.  
+
+### 📈 Key Features
+
+- 🔍 Track Individual Orders: Each order is associated with a salesperson.  
+- 📊 Dashboard Metrics (Home Page):  
+  - ✅ Total Sales  
+  - 📉 Average Sales per Salesperson  
+  - 🏆 Best Performing Salesperson  
+  - 📦 Most Sold Product  
+- 🔄 RESTful APIs for managing employees and orders  
+- 🧪 Tested via Postman  
 
 ---
 
@@ -61,38 +87,7 @@ A Spring Boot REST API demonstrating a **many-to-many** relationship between `Re
 
 ---
 
-## 📊 Sales Analytics Dashboard
 
-A full-stack backend analytics system built with Spring Boot, Java, and MySQL to track and analyze the performance of sales employees based on their order history.
-
-### 🔧 Tech Stack
-
-- Backend: Java, Spring Boot  
-- Database: MySQL  
-- API Testing: Postman  
-- Build Tool: Maven  
-
-### 🧩 Entities & Relationships
-
-- **SalesEmployee**  
-  - Represents each salesperson.  
-  - Fields include name, email, etc.  
-  - Has a **One-to-Many** relationship with `Order`.  
-
-- **Order**  
-  - Contains details like product, amount, and date.  
-  - Each order is linked to one `SalesEmployee`.  
-
-### 📈 Key Features
-
-- 🔍 Track Individual Orders: Each order is associated with a salesperson.  
-- 📊 Dashboard Metrics (Home Page):  
-  - ✅ Total Sales  
-  - 📉 Average Sales per Salesperson  
-  - 🏆 Best Performing Salesperson  
-  - 📦 Most Sold Product  
-- 🔄 RESTful APIs for managing employees and orders  
-- 🧪 Tested via Postman  
 
 ---
 
